@@ -10,7 +10,20 @@ In parallel with our applied work, we also develop and release open-source stati
 
 ## 🧰 Open-Source Tools
 
-### 📊 [Cellmate](https://github.com/OutliersAnalytics/cellmate)
+### [DadosAbertosBrasil](https://github.com/GusFurtado/DadosAbertosBrasil)
+
+**DadosAbertosBrasil** is a Python package for accessing open data and APIs of the Brazilian
+government, wrapping sources like IBGE, IPEA, and the Chamber of Deputies into a single
+`pandas`-friendly interface:
+
+- Socio-economic, demographic, and geographic series from IBGE
+- Macroeconomic data from IPEA
+- Legislative data from the Chamber of Deputies
+- Helpers for cleaning and cross-referencing Brazilian datasets
+
+_Currently hosted at [`GusFurtado/DadosAbertosBrasil`](https://github.com/GusFurtado/DadosAbertosBrasil); transfer into the org is planned._
+
+### [Cellmate](https://github.com/OutliersAnalytics/cellmate)
 
 **Cellmate** is a lightweight Python package for creating and managing styled Excel spreadsheets using [OpenPyXL](https://openpyxl.readthedocs.io/).  
 It simplifies the process of generating reports with features like:
@@ -22,7 +35,7 @@ It simplifies the process of generating reports with features like:
 
 Ideal for data scientists and analysts who need to export structured reports directly from code.
 
-### 📈 [MarkoWizard](https://github.com/OutliersAnalytics/MarkoWizard)
+### [MarkoWizard](https://github.com/OutliersAnalytics/MarkoWizard)
 
 **MarkoWizard** is a Python toolkit for [Markowitz](https://en.wikipedia.org/wiki/Modern_portfolio_theory) mean-variance portfolio optimization.
 It turns a table of asset returns into an efficient frontier and an optimal allocation, with:
