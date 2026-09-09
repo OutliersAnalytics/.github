@@ -22,6 +22,19 @@ It simplifies the process of generating reports with features like:
 
 Ideal for data scientists and analysts who need to export structured reports directly from code.
 
+### 📈 [MarkoWizard](https://github.com/OutliersAnalytics/MarkoWizard)
+
+**MarkoWizard** is a Python toolkit for [Markowitz](https://en.wikipedia.org/wiki/Modern_portfolio_theory) mean-variance portfolio optimization.
+It turns a table of asset returns into an efficient frontier and an optimal allocation, with:
+
+- Efficient-frontier optimization via `scipy.optimize`
+- Capital allocation line for mixing risky portfolios with a risk-free asset
+- Plotly visualizations — efficient frontier, allocation pie, CAL, correlation heatmaps, price timelines
+- Optional market-data fetching through [yfinance](https://github.com/ranaroussi/yfinance)
+- An interactive FastAPI web app with a dark-themed frontend
+
+Useful for analysts exploring risk-return trade-offs in asset allocation.
+
 More open-source statistical tools are in development and will be released here as they mature.
 
 ## 📫 Contact
