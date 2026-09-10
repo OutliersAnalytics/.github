@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OutliersAnalytics/.github/refs/heads/main/logos/logo_inline.png" alt="Outliers Analytics" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OutliersAnalytics/outliersanalytics.github.io/main/assets/images/logo-dark.png" />
+    <img src="https://raw.githubusercontent.com/OutliersAnalytics/outliersanalytics.github.io/main/assets/images/logo-light.png" alt="Outliers Analytics" width="420" />
+  </picture>
 </p>
 
 ---
