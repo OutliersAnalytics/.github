@@ -37,6 +37,18 @@ It turns a table of asset returns into an efficient frontier and an optimal allo
 
 Useful for analysts exploring risk-return trade-offs in asset allocation.
 
+### [statsjunk](https://github.com/OutliersAnalytics/statsjunk)
+
+**statsjunk** is a framework-free Python library of general-purpose statistical functions —
+correlation, regression, spatial autocorrelation, and prediction-model sample size calculations:
+
+- Pearson and Spearman correlation, with confidence intervals
+- Simple and multiple linear regression
+- Global Moran's I spatial autocorrelation
+- Minimum sample size for prediction models (a Python port of R's `pmsampsize`)
+
+Ideal for dropping a well-tested, typed statistical function into a pipeline without reaching for R.
+
 ### [Cellmate](https://github.com/OutliersAnalytics/cellmate)
 
 **Cellmate** is a lightweight Python package for creating and managing styled Excel spreadsheets using [OpenPyXL](https://openpyxl.readthedocs.io/).  
@@ -48,8 +60,6 @@ It simplifies the process of generating reports with features like:
 - Seamless integration into Python data pipelines
 
 Ideal for data scientists and analysts who need to export structured reports directly from code.
-
-More open-source statistical tools are in development and will be released here as they mature.
 
 ## 📫 Contact
 
